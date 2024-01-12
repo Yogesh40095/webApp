@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <div id="profile_box">
+        <div id="tringle_pic">
+
+        </div>
+    </div>
+    
+        
+    
+
+    <i class="fas fa-plus-circle" id="new_contact"></i>
+
+    <div id="main_all_contact_box">
+        <div id="contact_header">
+            <h1> <i class="fas fa-user-circle"></i> All Contacts</h1>
+            <input type="search" placeholder="Search Your Contacts" id="search">
+        </div>
+        <div id="all_contact_box">
+            
+        </div>
+        
+    </div>
+
+    <button id="back_btn">Go Back</button>
+
+
+
+    <div id="contact_bg" class="animate__animated animate__fadeIn">
+        <center>
+        <div id="add_contact_box" class="animate__animated animate__slideInDown">
+            <h1 id="c_heading">Add New Contacts</h1>
+            <form>
+                <input type="text" id="c_name" placeholder="Enter Name">
+                <input type="number" id="c_number" placeholder="Enter Mobile No.">
+                <button type="submit" id="add">Add</button>
+                <button type="button" id="close">Close</button>
+            </form>
+
+        </div>
+        </center>
+    </div>
+    <script src="js/contact.js"></script>
+</body>
+</html>

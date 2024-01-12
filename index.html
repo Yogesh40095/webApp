@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Ubuntu&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <div id="container">
+        <div id="page">
+            <div id="login" class="animate__animated animate__flipInX">
+                <h1 align="center">Login</h1>
+                <form id="login_frm">
+                    <input type="email" required="required" placeholder="Email Id" id="login_email">
+                    <small id="login_email_warning"> <i class="fa-solid fa-triangle-exclamation"></i> Email id not registerd..</small>
+                    <input type="password" required="required" placeholder="Password" id="login_password">
+                    <small id="login_password_warning"> <i class="fa-solid fa-triangle-exclamation"></i> Worng password..</small>
+                    <button type="submit" id="login_btn">Login</button>
+                </form>
+                <p>Don't have an account? <span id="signup_link">Sign up</span></p>
+            </div>
+            <div id="signup" class="animate__animated animate__flipInX">
+                <h1 align="center">Sign up</h1>
+                <form id="signup_frm" autocomplete="off">
+                <input type="name" required="required" placeholder="Name" id="username">
+                <input type="email" required="required" placeholder="Email" id="email">
+                <small id="email_notice"> <i class="fa-solid fa-triangle-exclamation"></i> Email id already exist..</small>
+                <input type="number" required="required" placeholder="Phone" id="phone">
+                <input type="password" required="required" placeholder="Password" id="password">
+                <button type="submit" id="signup_btn">Sign up</button>
+                </form>
+                <p>Already have an account? <span id="login_link">Login</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="scrept.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
